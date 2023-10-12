@@ -7,8 +7,7 @@ Submission to 2023 Solana HyperDrive Submission by:
 - Jon
 - Hugo
 - Benny
-- Altay
-- Josh
+  ...more
 - Eric ([GitHub](https://github.com/ymc182), [LinkedIn](https://www.linkedin.com/in/yiu-ming-cheung-8b150a147/))
 
 #### Resources
@@ -59,6 +58,10 @@ Submission to 2023 Solana HyperDrive Submission by:
 - Once the transaction is confirmed on chain, balance and transfer are updated on the user homepage.
 
 ![UserFlow](Pending)
+
+# API Details and Documentation
+
+...(work in progress)
 
 #### Present Limitations/Known Issues
 
