@@ -1,0 +1,61 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = "postgresql://postgres:N1xDFsCOasyXdGkeXauF@containers-us-west-138.railway.app:5575/railway"
+}
+
+model NFTMetadata {
+  //mint address of the NFT
+  metadataId   String   @id @unique
+  name         String   @default("SaveSync NFT")
+  image        String   @default("https://i.ibb.co/hM3Qn38/ezgif-5-eaed82287f.png")
+  external_url String?  @default("")
+  symbol       String   @default("SSNFT")
+  attributes   Json
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  NFTs         NFTs[]
+
+  @@index([metadataId], name: "metadataId")
+}
+
+model NFTCollection {
+  nftMint     String   @id @unique
+  name        String
+  description String
+  image       String
+  externalUrl String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  NFTs        NFTs[]
+}
+
+model NFTs {
+  nftMint        String        @id @unique
+  nftMetadataId  String        @unique
+  collectionMint String
+  nftMetadata    NFTMetadata   @relation(fields: [nftMetadataId], references: [metadataId])
+  collection     NFTCollection @relation(fields: [collectionMint], references: [nftMint])
+
+  @@index([nftMetadataId], name: "nftMetadataId")
+}
+
+enum Currency {
+  SOL
+  IAP
+  IGC
+}
+
+model ListedNFT {
+  nftMint         String @id @unique
+  tokenAccountId  String
+  listingPda      String
+  listingPrice    Float
+  listingCurrency String @default("IAP")
+}

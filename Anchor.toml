@@ -1,0 +1,16 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.localnet]
+marketplace = "HeSVF4eHVcaFRMzbTwAz1wrtSv66xFp6V6cHKRNAtCG4"
+metaplex_anchor_nft = "Lp7MMp1TTgz6PVVNHySHgGuZQGmxTo6QtZkb5mz6VJF"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/ymc182/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
