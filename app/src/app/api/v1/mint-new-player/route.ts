@@ -7,7 +7,7 @@ export async function POST(request: NextRequest) {
   const address = body.address;
   const medadataId = body.metadataId;
 
-  if (!address || !medadataId || !body.attributes) {
+  if (!address || !body.attributes) {
     return NextResponse.json(
       {
         error: "Missing address or metadataId or attributes",
