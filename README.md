@@ -6,8 +6,6 @@ Submission to 2023 Solana HyperDrive Submission by:
 
 ...more
 
-- Eric ([GitHub](https://github.com/ymc182), [LinkedIn](https://www.linkedin.com/in/yiu-ming-cheung-8b150a147/))
-
 #### Resources
 
 - [Pitch Deck](#)
