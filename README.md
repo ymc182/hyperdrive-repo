@@ -4,10 +4,8 @@ _Mass web2 game adoption_. **Sync** is a solution for game developers to integra
 
 Submission to 2023 Solana HyperDrive Submission by:
 
-- Jon
-- Hugo
-- Benny
-  ...more
+...more
+
 - Eric ([GitHub](https://github.com/ymc182), [LinkedIn](https://www.linkedin.com/in/yiu-ming-cheung-8b150a147/))
 
 #### Resources
