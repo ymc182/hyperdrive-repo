@@ -34,30 +34,7 @@ Submission to 2023 Solana HyperDrive Submission by:
 - NextJs: [Marketplace / API Dashboard Interface](./backend/src/circle/)
 - Postgresql/Prisma: [Database](./app/prisma/) for storing indexed data, listing, and game data, also act as a cache for Solana blockchain data and metadata provider
 
-#### Detailed User Flow
-
-**Games Integration**
-
-**User Creation**
-
-- Users deposit funds to their account a credit card using the Circle payments API
-- Currently, devnet assigns a random credit card to the user (manual credit card entry is disabled)
-- On confirmation of payment, funds are transferred from tap account to users USDC token account
-- Balance is updated on users homepage and the transaction on recent activity (custom parsed Solana transaction history)
-
-**Trading**
-
-- Users can initiate a peer to peer transfer via the "Send" button on the home page.
-- Users query other tap members via a search that looks up other members by email via our Google Backend.
-- Users select a user and amount and send the transaction to our backend.
-- The program transfer function requires 3 signatures: the Program, the tap Bank authority, and the user.
-- Once the transaction is confirmed on chain, balance and transfer are updated on the user homepage.
-
 ![UserFlow](Pending)
-
-# API Details and Documentation
-
-...(work in progress)
 
 #### Present Limitations/Known Issues
 
@@ -90,8 +67,6 @@ To deploy Sync API locally, you will need to set up the following:
 Follow these directions https://reactnative.dev/docs/environment-setup but skip Creating a new application.
 
 In a terminal in the project directory run `npm install`
-
-### Set up Environment
 
 - Set environment variables, `MARKETPLACE_PROGRAM_ID`, `MINTER_PROGRAM_ID`,`MARKETPLACE_ADDRESS`, `MARKETPLACE_AUTHORITY`.
 - Set `DATABASE_URL` to the address of the local or remote database.
