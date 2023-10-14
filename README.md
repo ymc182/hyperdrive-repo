@@ -41,7 +41,7 @@ Submission to 2023 Solana HyperDrive Submission by:
 - Some features currently disabled on devnet:
   - Friend Investing System
   - Fiat payment for listing purchases
-  - (more)
+  - API endpoint are more strightforward approach compare to live version
 
 ---
 
