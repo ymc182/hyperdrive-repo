@@ -8,7 +8,7 @@ Submission to 2023 Solana HyperDrive Submission by:
 
 #### Resources
 
-- [Pitch deck] - in submission
+- [Pitch deck](https://docs.google.com/presentation/d/1nGRIPEUTpERnzE5WNn95bWHq73vU1VmCBo0sCPD525I/edit?usp=sharing)
 - [Android APK Download] - in submission
 - [Sync HomePage](https://sync.studio/)
 - [Sync Twitter](https://twitter.com/SyncStudio_)
