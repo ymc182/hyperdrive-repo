@@ -1,10 +1,36 @@
-# Sync
+# Submission to 2023 Solana HyperDrive
 
-_Mass web2 game adoption_. **Sync** is a solution for game developers to integrate their games with the Solana blockchain.
+Sync Studios has a highly experienced Mobile Gaming Team with over a Billion Career Downloads. We have built a simple solution that turns web2 player mobile player accounts in games into a tradable asset class.
 
-Submission to 2023 Solana HyperDrive Submission by:
+### Sync Studio Solution Walkthrough
 
-...more
+[![YouTube Video](https://img.youtube.com/vi/hPR8BOLHna4/0.jpg)](https://youtu.be/hPR8BOLHna4)
+
+In web2, there is a billion-dollar black market trading in skins and in-game items. Several web2 marketplaces have emerged in an attempt to legitimize this space. However, there are still three key problems:
+
+1. **Risks for Buyers**: As a buyer, you can still get "rugged" by a seller. You buy the account, but the original seller can reclaim their account from the developer, and the buyer loses everything.
+
+2. **Dependency on Game Developers**: Both buyers and sellers are at the mercy of game developers who can revoke access to these items at any time.
+
+3. **Exclusion of Developers**: Developers are often cut out of these transactions, leading to bans on sales outside of their games.
+
+**Sync Studios' Solution**:
+We have developed a solution to address these issues, benefiting both developers and gamers. Gamers can easily sell their accounts and progression, all validated by the blockchain, while developers can receive royalties from these transactions.
+
+## Team:
+
+- **Jon Hook** - CEO / Co-Founder - Gaming Industry Expert. Worked at Homa / BoomBit and AdColony. 1x Exit.
+- **Serge Romanyuk** - Co-Founder - Senior Game Producer on some of the biggest casual games in history, such as Gardenscapes and Homescapes at Playrix.
+- **Y.M Zhang** - Lead Blockchain Dev - Built major DEXs on NEAR protocol and created Web3 gaming SDKs that have created over 500k Web3 wallets.
+- **Nattalia Ivanova** - Artist - Worked at multiple game studios, including Peak Games, and is incredibly talented.
+
+## Extra Business Model for Mobile Games:
+
+- **Gamers - Earn from Trading**: Gamers can earn from selling their accounts and can seamlessly trade. They can grind in-game or trade within the in-game marketplace.
+- **Developers - Not Just Ads and IAPs**: This opens up a significant additional monetization opportunity for game studios. A percentage of all secondary trading will go to the development studio. A similar case study by NFT Rivals has shown increased KPIs in games, such as increased ad and IAP consumption.
+- **For Sync**: SAAS model - cost per NFT minted by the game studio. Additionally, a small percentage of all secondary royalties and trading fees.
+
+![Screenshot](https://i.ibb.co/Ltb6XN0/screenshot-2023-10-15-at-10-18-09.png)
 
 #### Resources
 
