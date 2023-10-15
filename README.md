@@ -59,9 +59,7 @@ We have developed a solution to address these issues, benefiting both developers
 - NextJs: [Marketplace / API Dashboard Interface](./backend/src/circle/)
 - Postgresql/Prisma: [Database](./app/prisma/) for storing indexed data, listing, and game data, also act as a cache for Solana blockchain data and metadata provider
 
-![UserFlow](Pending)
-
-#### Present Limitations/Known Issues
+### Present Limitations/Known Issues
 
 - Some features currently disabled on devnet:
   - Friend Investing System
