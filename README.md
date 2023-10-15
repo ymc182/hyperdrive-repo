@@ -16,8 +16,7 @@ Submission to 2023 Solana HyperDrive Submission by:
 #### Summary of Submission Features
 
 - Game DEMO
-- Web2 Game Compatable Marketplace API
-- Web2 Game Users OnRamp API
+- Conceptional Implementation API endpoints
 - Feeless peer-to-peer Listing
 - Parsed Solana Metadata Store for Games
 - Live on Solana Devnet
